@@ -1,7 +1,7 @@
 import app from "./app";
 
 const startServer = async () => {
-  const port = 9000;
+  const port = 5000;
 
   app.listen(port, () => {
     console.log(`Listening on port: ${port}`);
