@@ -9,10 +9,7 @@ const LiveEvents = () => {
                     events.map((event, i) => (
                         <div key={i} className="rounded-xl overflow-hidden relative group shadow-sm cursor pointer">
                             <img src={event.img} alt={event.title} className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105" />
-                            {/* <div className="p-4">
-                                <h3 className="text-lg font-semibold">{event.title}</h3>
-                                <p className="text-gray-600 text-sm">{event.date}</p>
-                            </div> */}
+                  
                         </div>
                     ))
                 }
