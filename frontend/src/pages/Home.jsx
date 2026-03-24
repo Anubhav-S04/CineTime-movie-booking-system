@@ -1,9 +1,10 @@
 import BannerSlider from "../components/shared/BannerSlider";
-
+import Recommended from "../components/Recommended";
 const Home = () => {
     return (
         <div>
             <BannerSlider />
+            <Recommended />
         </div>
     );
 };
