@@ -4,14 +4,14 @@ import {banners}  from "../../utils/constants";
 
 const BannerSlider = () => {
     const settings = {
-        centermode: true,
+        centerMode: true,
         centerPadding: "400px",
         slidesToShow: 1,
         speed:800,
         autoplay: true,
         arrows: true,
         dots: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 4000,
         infinite: true
 
 
