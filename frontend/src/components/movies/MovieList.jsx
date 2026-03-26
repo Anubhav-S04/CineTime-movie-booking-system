@@ -20,7 +20,7 @@ const MovieList = () => {
       <div className='flex flex-wrap gap-6'>
             {
                 allMovies.map((movie, i) => (
-                    <MovieCard key={i}{...movie} />
+                    <MovieCard key={i} movie={movie} />
                 ))
             }
       </div>
