@@ -12,6 +12,7 @@ const movie = {
     age: "UA16+",
     duration: "2h 15m",
     releaseDate: "2024-09-15",
+    description: "Experience the adrenaline-pumping world of Formula 1 racing like never before in 'F1: The Movie'. This high-octane film takes you behind the scenes of the most prestigious motorsport, showcasing the intense rivalries, cutting-edge technology, and the relentless pursuit of victory. Follow the journey of a talented young driver as he navigates the challenges of the racing circuit, battles fierce competitors, and strives to become a legend in the world of F1. With breathtaking visuals, heart-stopping action, and a gripping storyline, 'F1: The Movie' is a must-watch for racing enthusiasts and movie lovers alike."
 }
 const MovieDetails = () => {
     return (
@@ -76,6 +77,13 @@ const MovieDetails = () => {
                             {movie.age} •{" "}
                             {movie.releaseDate}
                         </p>
+                        <div>
+                            <h2 className="text-xl font-bold mb-2">About the movie</h2>
+
+                            <p className="text-sm text-gray-50 leading-relaxed mb-4">
+                                {movie.description}
+                            </p>
+                        </div>
                     </div>
 
 
