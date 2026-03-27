@@ -55,7 +55,7 @@ const MovieDetails = () => {
                                 <span className="text-pink-500 font-bold">
                                     ★ {movie.rating}
                                 </span>
-                                <span className="text-gray-300">
+                                <span className="text-gray-200">
                                     {movie.votes} Votes
                                 </span>
                                 <button className="cursor-pointer bg-[#2f2f2f] ml-6 px-4 py-2 rounded-md hover:bg-[#4a4a4a]">
