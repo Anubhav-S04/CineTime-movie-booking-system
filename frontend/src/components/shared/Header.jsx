@@ -40,6 +40,9 @@ const Header = () => {
                         <button className="px-4 py-1.5 rounded bg-red-500 cursor-pointer text-sm font-medium text-white hover:bg-red-600">
                             Sign in
                         </button>
+                        <div>
+                            <svg className='cursor-pointer'width="24px" height="24px" viewBox="0 0 12.00 12.00" enable-background="new 0 0 12 12" id="Слой_1" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" stroke="#000000" stroke-width="0.00012000000000000002"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.12000000000000002"></g><g id="SVGRepo_iconCarrier"> <g> <rect fill="#1D1D1B" height="1" width="11" x="0.5" y="5.5"></rect> <rect fill="#1D1D1B" height="1" width="11" x="0.5" y="2.5"></rect> <rect fill="#1D1D1B" height="1" width="11" x="0.5" y="8.5"></rect> </g> </g></svg>
+                        </div>
                     </div>
                 </div>
             </div>
