@@ -52,7 +52,7 @@ const MovieDetails = () => {
 
                         <div className="flex items-center gap-4 mb-3">
                             <div className="bg-[#3a3a3a] px-4 py-2 rounded-md flex items-center gap-2 text-sm">
-                                <span className="text-pink-600 font-bold">
+                                <span className="text-pink-500 font-bold">
                                     ★ {movie.rating}
                                 </span>
                                 <span className="text-gray-300">
