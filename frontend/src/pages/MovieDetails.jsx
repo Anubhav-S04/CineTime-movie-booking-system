@@ -105,6 +105,9 @@ const MovieDetails = () => {
                             Share
                         </button>
                     </div>
+
+
+                    
                 </div>
             </div>
         </>
