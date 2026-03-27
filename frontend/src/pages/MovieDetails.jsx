@@ -88,7 +88,23 @@ const MovieDetails = () => {
 
 
                     {/* Share Button */}
-                    <div></div>
+                    <div className="absolute top-0 right-0 cursor-pointer">
+                        <button
+                            className="cursor-pointer bg-[#3a3a3a] px-4 py-2 rounded text-sm flex items-center gap-2"
+                        >
+                            <svg
+                                className="w-4 h-4"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                            >
+                                <path d="M18 16.08c-.76 0-1.44.3-1.96.77l-7.13-4.21c.05-.25.09-.51.09-.78s-.03-.53-.09-.78l7.04-4.15c.54.5 1.25.81 2.05.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 
+      1.34-3 3c0 .27.04.52.09.78L8.91 9.03C8.38 8.52 7.67 8.21 6.87 8.21c-1.66 0-3 
+      1.34-3 3s1.34 3 3 3c.8 0 1.52-.31 2.05-.81l7.12 4.2c-.05.24-.08.49-.08.75 
+      0 1.65 1.35 3 3 3s3-1.35 3-3-1.34-3-3-3z" />
+                            </svg>
+                            Share
+                        </button>
+                    </div>
                 </div>
             </div>
         </>
