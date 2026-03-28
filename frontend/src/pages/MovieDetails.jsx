@@ -125,7 +125,7 @@ const MovieDetails = () => {
 
                 </div>
                 <div className='border border-gray-200'></div>
-                <div className='bg-gray-200 flex flex-row gap-2.5 text-gray-600 p-2 px-7'>
+                <div className='bg-gray-200 flex flex-row gap-5.5 text-gray-600 p-2 px-7'>
                    
                       <span className="flex items-center gap-1">
                         <span className="w-2 h-2 mr-1 bg-gray-800 rounded-full inline-block"></span>
