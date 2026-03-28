@@ -1,5 +1,6 @@
 import React from 'react';
 import m4 from '../assets/m4.avif';
+import TheaterTimings from '../components/movies/TheaterTimings';
 const movie = {
     id: 4,
     title: "F1: The Movie",
@@ -107,9 +108,46 @@ const MovieDetails = () => {
                     </div>
 
 
+                </div>
+
+            </div>
+            <div className='  flex flex-col gap-2.5 max-w-screen-xl mx-auto  py-3 my-4'>
+                <div className=' text-sm flex flex-row gap-2.5'>
+                    <div className='border border-gray-300 p-1 px-6 rounded-[10px]'>2D</div>
+                    <div className='border border-gray-300 p-1 px-6 rounded-[10px]'>3D</div>
+                    <div className='border border-gray-300 p-1 px-6 rounded-[10px]'>Wheelchair-friendly</div>
+                    <div className='border border-gray-300 p-1 px-6 rounded-[10px]'>Premium Seats</div>
+                    <div className='border border-gray-300 p-1 px-6 rounded-[10px]'>Recliner</div>
+                    <div className='border border-gray-300 p-1 px-6 rounded-[10px]'>IMAX</div>
+                    <div className='border border-gray-300 p-1 px-6 rounded-[10px]'>4DX</div>
+                    <div className='border border-gray-300 p-1 px-6 rounded-[10px]'>LASER</div>
+                    <div className='border border-gray-300 p-1 px-6 rounded-[10px]'>Dolby Atmos</div>
 
                 </div>
+                <div className='border border-gray-200'></div>
+                <div className='bg-gray-200 flex flex-row gap-2.5 text-gray-600 p-2 px-7'>
+                   
+                      <span className="flex items-center gap-1">
+                        <span className="w-2 h-2 mr-1 bg-gray-800 rounded-full inline-block"></span>
+                        <small className="font-semibold text-gray-500">Available</small>
+                    </span>
+                    <span className="flex items-center gap-1">
+                        <span className="w-2 h-2 mr-1 bg-yellow-400 rounded-full inline-block"></span>
+                        <small className="font-semibold text-gray-500">Filling fast</small>
+                    </span>
+
+                    <span className="flex items-center gap-1 ">
+                        <span className="w-2 h-2 mr-1 bg-red-400 rounded-full inline-block"></span>
+                        <small className="font-semibold text-gray-500">Almost full</small>
+                    </span>
+        
+                </div>
+
+                {/* Theater timings */}
+                <TheaterTimings />
+
             </div>
+
         </>
 
 
