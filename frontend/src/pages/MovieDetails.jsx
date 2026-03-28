@@ -113,15 +113,15 @@ const MovieDetails = () => {
             </div>
             <div className='  flex flex-col gap-2.5 max-w-screen-xl mx-auto  py-3 my-4'>
                 <div className=' text-sm flex flex-row gap-2.5'>
-                    <div className='border border-gray-300 p-1 px-6 rounded-[10px]'>2D</div>
-                    <div className='border border-gray-300 p-1 px-6 rounded-[10px]'>3D</div>
-                    <div className='border border-gray-300 p-1 px-6 rounded-[10px]'>Wheelchair-friendly</div>
-                    <div className='border border-gray-300 p-1 px-6 rounded-[10px]'>Premium Seats</div>
-                    <div className='border border-gray-300 p-1 px-6 rounded-[10px]'>Recliner</div>
-                    <div className='border border-gray-300 p-1 px-6 rounded-[10px]'>IMAX</div>
-                    <div className='border border-gray-300 p-1 px-6 rounded-[10px]'>4DX</div>
-                    <div className='border border-gray-300 p-1 px-6 rounded-[10px]'>LASER</div>
-                    <div className='border border-gray-300 p-1 px-6 rounded-[10px]'>Dolby Atmos</div>
+                    <div className='border cursor-pointer hover:bg-gray-100 border-gray-300 p-1 px-6 rounded-[10px]'>2D</div>
+                    <div className='border cursor-pointer hover:bg-gray-100 border-gray-300 p-1 px-6 rounded-[10px]'>3D</div>
+                    <div className='border cursor-pointer hover:bg-gray-100 border-gray-300 p-1 px-6 rounded-[10px]'>Wheelchair-friendly</div>
+                    <div className='border cursor-pointer hover:bg-gray-100 border-gray-300 p-1 px-6 rounded-[10px]'>Premium Seats</div>
+                    <div className='border cursor-pointer hover:bg-gray-100 border-gray-300 p-1 px-6 rounded-[10px]'>Recliner</div>
+                    <div className='border cursor-pointer hover:bg-gray-100 border-gray-300 p-1 px-6 rounded-[10px]'>IMAX</div>
+                    <div className='border cursor-pointer hover:bg-gray-100 border-gray-300 p-1 px-6 rounded-[10px]'>4DX</div>
+                    <div className='border cursor-pointer hover:bg-gray-100 border-gray-300 p-1 px-6 rounded-[10px]'>LASER</div>
+                    <div className='border cursor-pointer hover:bg-gray-100 border-gray-300 p-1 px-6 rounded-[10px]'>Dolby Atmos</div>
 
                 </div>
                 <div className='border border-gray-200'></div>
