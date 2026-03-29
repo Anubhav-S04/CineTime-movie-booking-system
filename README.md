@@ -1,4 +1,4 @@
-# 🎬 BookMyShow Clone
+# 🎬 CineTime
 
 ![React](https://img.shields.io/badge/Frontend-React-blue)
 ![Tailwind](https://img.shields.io/badge/UI-TailwindCSS-38bdf8)
@@ -29,6 +29,8 @@ https://your-backend-url.onrender.com
 ## 👤 User Features
 
 - Browse movies and show timings  
+- JWT Authentication
+- Email OTP verification
 - View movie details  
 - Select show and theater  
 - Interactive seat selection  
