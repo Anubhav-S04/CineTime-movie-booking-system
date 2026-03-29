@@ -128,7 +128,7 @@ const MovieDetails = () => {
                 <div className='bg-gray-200 flex flex-row gap-5.5 text-gray-600 p-2 px-7'>
                    
                       <span className="flex items-center gap-1">
-                        <span className="w-2 h-2 mr-1 bg-gray-800 rounded-full inline-block"></span>
+                        <span className="w-2 h-2 mr-1 bg-green-400 rounded-full inline-block"></span>
                         <small className="font-semibold text-gray-500">Available</small>
                     </span>
                     <span className="flex items-center gap-1">
