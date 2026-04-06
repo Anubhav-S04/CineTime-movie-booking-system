@@ -4,7 +4,7 @@
 ![Tailwind](https://img.shields.io/badge/UI-TailwindCSS-38bdf8)
 ![Node](https://img.shields.io/badge/Backend-Node.js-green)
 ![Express](https://img.shields.io/badge/Server-Express.js-black)
-![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue)
+![JavaScript](https://img.shields.io/badge/Language-JavaScript-blue)
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-green)
 ![Mongoose](https://img.shields.io/badge/ODM-Mongoose-red)
 
