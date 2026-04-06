@@ -14,15 +14,6 @@ This project simulates a complete ticket booking system with **interactive seat 
 
 ---
 
-# 🌐 Deployment
-
-Frontend  
-https://your-frontend-url.vercel.app
-
-Backend API  
-https://your-backend-url.onrender.com
-
----
 
 # 📦 Features
 
