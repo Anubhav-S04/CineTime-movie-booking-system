@@ -205,11 +205,7 @@ npm run dev
 
 ---
 
-# 📸 Screenshots (Optional)
 
-_Add your UI screenshots here_
-
----
 
 # 🚀 Project Significance
 
