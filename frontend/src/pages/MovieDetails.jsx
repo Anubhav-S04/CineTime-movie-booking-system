@@ -1,20 +1,20 @@
 import React from 'react';
-import m4 from '../assets/m4.avif';
+import m1 from '../assets/m1.avif';
 import TheaterTimings from '../components/movies/TheaterTimings';
 const movie = {
-    id: 4,
-    title: "F1: The Movie",
-    genre: ["Action", "Drama", "Sports"],
-    rating: 9.5,
-    votes: "6.8K",
-    img: m4,
-    languages: ["English", "Hindi", "Tamil", "Telugu"],
-    format: ["2D", "3D", "IMAX 3D"],
-    age: "UA16+",
-    duration: "2h 15m",
-    releaseDate: "2024-09-15",
-    description: "Experience the adrenaline-pumping world of Formula 1 racing like never before in 'F1: The Movie'. This high-octane film takes you behind the scenes of the most prestigious motorsport, showcasing the intense rivalries, cutting-edge technology, and the relentless pursuit of victory. Follow the journey of a talented young driver as he navigates the challenges of the racing circuit, battles fierce competitors, and strives to become a legend in the world of F1. With breathtaking visuals, heart-stopping action, and a gripping storyline, 'F1: The Movie' is a must-watch for racing enthusiasts and movie lovers alike."
-}
+    id: 1,
+    title: "Dhurandhar: The Revenge",
+    genre: ["Action", "Thriller", "Spy"],
+    rating: 9.4,
+    votes: "554K",
+    img: m1,
+    languages: ["Hindi", "English", "Tamil", "Telugu"],
+    format: ["2D", "3D", "IMAX"],
+    age: "A",
+    duration: "3h 49m",
+    releaseDate: "2026-03-19",
+    description: "‘Dhurandhar: The Revenge’ is a high-intensity spy action thriller that follows an undercover Indian intelligence agent operating deep inside Karachi’s criminal and political underworld. As he rises through the ranks under a false identity, he faces betrayal, shifting loyalties, and dangerous enemies while pursuing revenge tied to real geopolitical conflicts. Packed with brutal action, emotional depth, and a large-scale narrative, the film explores power, survival, and the cost of vengeance."
+};
 const MovieDetails = () => {
     return (
 

@@ -50,12 +50,12 @@ const Header = () => {
             <div className='bg-[#f2f2f2] px-4 md:px-8'>
                 <div className='max-w-screen-xl mx-auto flex justify-between items-center py-2 text-graay-700'>
                     <div className='flex items-center space-x-6 font-medium'>
-                        <span className='cursor-pointer hover:text-red-500'>Movies</span>
-                        <span className='cursor-pointer hover:text-red-500'>Streams</span>
-                        <span className='cursor-pointer hover:text-red-500'>Events</span>
-                        <span className='cursor-pointer hover:text-red-500'>Plays</span>
-                        <span className='cursor-pointer hover:text-red-500'>Sports</span>
-                        <span className='cursor-pointer hover:text-red-500'>Activities</span>
+                        <span onClick={() => window.location.href = '/movies'} className='cursor-pointer hover:text-red-500'>Movies</span>
+                        <span onClick={() => window.location.href = '/streams'} className='cursor-pointer hover:text-red-500'>Streams</span>
+                        <span onClick={() => window.location.href = '/events'} className='cursor-pointer hover:text-red-500'>Events</span>
+                        <span onClick={() => window.location.href = '/plays'} className='cursor-pointer hover:text-red-500'>Plays</span>
+                        <span onClick={() => window.location.href = '/sports'} className='cursor-pointer hover:text-red-500'>Sports</span>
+                        <span onClick={() => window.location.href = '/activities'} className='cursor-pointer hover:text-red-500'>Activities</span>
                     </div>
                     <div className="flex items-center space-x-6 text-sm">
                         <span className='cursor-pointer hover:underline'>ListYourShow</span>
